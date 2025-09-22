@@ -1,0 +1,76 @@
+.firstBtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: black;
+    border-radius: 50px;
+    height: 30px;
+    width: 130px;
+    font-size: 17px;
+    transition: all 0.3s;
+    font-family:'Times New Roman', Times, serif;
+}
+.firstBtn:hover{
+    background-color: black;
+    color: white;
+}
+.secondBtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: black;
+    border-radius: 50px;
+    height: 30px;
+    width: 160px;
+    font-size: 17px;
+    transition: all 0.3s;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+.secondBtn:hover{
+    background-color: rgb(104, 14, 14);
+    color: white;
+}
+.BtnOnOff{
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 50px;
+    height: 30px;
+}
+.BtnCount{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: black;
+    border-radius: 50px;
+    height: 30px;
+    width: 130px;
+    font-size: 17px;
+    transition: all 0.3s;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+.BtnCount:hover{
+    background-color: black;
+    color: white;
+}
+.TextCounter{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: black;
+    width: 110px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 0px;
+    margin-top: 4px;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.holaReact{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 60px;
+}
